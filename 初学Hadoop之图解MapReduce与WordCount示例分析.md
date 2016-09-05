@@ -1,4 +1,4 @@
-#初学Hadoop之图解MapReduce与WordCount示例分析
+#初学Hadoop之图解MapReduce与WordCount示例分析-
 Hadoop的框架最核心的设计就是：HDFS和MapReduce。HDFS为海量的数据提供了存储，MapReduce则为海量的数据提供了计算。
 
 HDFS是Google File System（GFS)的开源实现。
