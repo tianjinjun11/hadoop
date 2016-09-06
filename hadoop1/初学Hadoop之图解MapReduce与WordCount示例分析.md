@@ -209,3 +209,9 @@ If的语句好理解，就是运行WordCount程序时候一定是两个参数，
         FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
         System.exit(job.waitForCompletion(true) ? 0 : 1);!
 第一行就是构建输入的数据文件，第二行是构建输出的数据文件，最后一行如果job运行成功了，我们的程序就会正常退出。
+
+###shell执行命令
+
+[参考命令](http://www.powerxing.com/hadoop-build-project-by-shell/)
+
+    $ /usr/local/hadoop/bin/hadoop jar WordCount.jar org.apache.hadoop.examples.WordCount input output
